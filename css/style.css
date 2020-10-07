@@ -31,16 +31,8 @@ img {
     height: 100%;
 }
 
-/* .panorama::-webkit-scrollbar,
-.page::-webkit-scrollbar {
-    width: -10px;
-    height: 0;
-} */
-
 .page::-webkit-scrollbar { width: -10;}
-/* ie 10+ */
 .page { -ms-overflow-style: none; }
-/* фф (свойство больше не работает, других способов тоже нет)*/
 .page { overflow: -moz-scrollbars-none; }
 
 
@@ -51,6 +43,7 @@ img {
     height: 1920px;
     background-color: black;
     overflow-y: scroll;
+
 }
 
 .panorama {
